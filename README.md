@@ -24,10 +24,11 @@
 
 | Feature                         | Status        |
 | ------------------------------- | ------------- |
-| Streamlit integration           | 🚧 In Progress |
+| Efficient Frontier Chart        | 🚧 In Progress |
+| VaR and CVaR calculus           | Planned       |
+| Streamlit integration           | Planned       |
 | Full website frontend (HTML/CSS/JS) | Planned  |
-| Expanded asset classes support  | Planned       |
-| Advanced risk metrics           | Planned       |
+| Further Opimization             | Planned       |
 
 
 ## ⚙️ How it works
