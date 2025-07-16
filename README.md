@@ -32,6 +32,8 @@
 
 
 ## ⚙️ How it works
+<img width="650" height="300" alt="image" src="https://github.com/user-attachments/assets/2fabe7d0-308b-434d-bd9c-7b9a281d8f66" />
 <img width="650" height="300" alt="portfolio volatility formula (stdev)" src="https://github.com/user-attachments/assets/fe435449-3f8c-4041-bc4f-aa7b43f9afda" />
 <img width="650" height="300" alt="beta formula" src="https://github.com/user-attachments/assets/a30e0a88-aa2b-4909-b69e-dfd085a7a341" />
+
 
