@@ -30,6 +30,9 @@
 | Full website frontend (HTML/CSS/JS) | Planned  |
 | Further Opimization             | Planned       |
 
+## ⚙️ Our First Results
+<img width="1686" height="946" alt="image" src="https://github.com/user-attachments/assets/f8389ce8-08b1-478c-8df8-36f1466e0d1e" />
+
 
 ## ⚙️ How it works
 <img width="650" height="300" alt="image" src="https://github.com/user-attachments/assets/2fabe7d0-308b-434d-bd9c-7b9a281d8f66" />
