@@ -17,15 +17,16 @@
 
 ## 🛠️ Tech Stack
 
-`Python` | `pandas` | `numpy` | `scipy.optimize` | `yfinance`
+`Python` | `pandas` | `numpy` | `scipy.optimize` | `yfinance` | `matplotlib`
 
 
 ## 🛤️ Roadmap
 
 | Feature                         | Status        |
 | ------------------------------- | ------------- |
-| Efficient Frontier Chart        | 🚧 In Progress |
-| VaR and CVaR calculus           | Planned       |
+| Strategy Optimizer              | ✅ Done |
+| Efficient Frontier Chart        | ✅ Done |
+| VaR and CVaR calculus           | 🚧 In Progress |
 | Streamlit integration           | Planned       |
 | Full website frontend (HTML/CSS/JS) | Planned  |
 | Further Opimization             | Planned       |
