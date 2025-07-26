@@ -27,6 +27,7 @@
 | Multi-Strategy Portfolio Optimizer   | ✅ Done |
 | Efficient Frontier Chart        | ✅ Done |
 | VaR and CVaR (ES) calculus      | 🚧 In Progress |
+| Fama French 5 factor model Integration | Planned |
 | Streamlit integration           | Planned       |
 | Full website frontend (HTML/CSS/JS) | Planned  |
 | Further Opimization             | Planned       |
