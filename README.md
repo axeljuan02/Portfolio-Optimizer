@@ -33,6 +33,7 @@
 
 ## ⚙️ First Results
 <img width="2336" height="1122" alt="image" src="https://github.com/user-attachments/assets/e728f627-8bde-4398-bd73-4e5fc54d5d75" />
+<img width="1274" height="898" alt="image" src="https://github.com/user-attachments/assets/fd3c71a2-0aed-45f5-82d2-19bc2fea9df0" />
 
 
 ## ⚙️ How it works
