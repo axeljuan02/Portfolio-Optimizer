@@ -10,7 +10,7 @@ Its ambition quickly grew: to build a **professional-grade portfolio optimizatio
 
 SORA isn’t just an optimizer. It’s a mission to **educate as much as it optimizes**, revealing the models used by institutions, breaking down the knowledge gap, and empowering individual investors to make **truly informed decisions**.
 
-<br>
+
 
 ## 📌 A Mission
 
@@ -27,7 +27,7 @@ This project was born from a belief that **everyone deserves access to elite kno
 And that’s when SORA stopped being just a coding experiment, and started its transformation into a project with a mission:  
 ➡️ **To close the gap. To democratize professional investing.**
 
-<br>
+
 
 ## ✅ Current Features
 
@@ -45,7 +45,7 @@ Highlighting the optimal portfolio allocations vs the actual portfolio allocatio
 **VaR** (Value at Risk) and **CVaR** (Conditional VaR) computed through **Monte Carlo simulation**  
 Loss distribution plots and extreme risk scenarios  
 
-<br>
+
 
 ## ⚙️ How It Works
 
@@ -56,7 +56,7 @@ Loss distribution plots and extreme risk scenarios
 5️⃣ **Risk engine**: Monte Carlo simulation runs → VaR & CVaR calculated  
 6️⃣ **Outputs delivered**: optimized weights, KPIs, efficient frontier & risk visualizations
 
-<br>
+
 
 ## 🛤️ Roadmap
 
@@ -72,14 +72,14 @@ Loss distribution plots and extreme risk scenarios
 | SaaS frontend (HTML/CSS/JS) | Planned |
 | AI/NLP integration | Planned |
 
-<br>
+
 
 ## 📸 First Results
 <img width="2336" height="1122" alt="efficient_frontier_results" src="https://github.com/user-attachments/assets/5b5b5cba-2734-4f16-b10f-bafc2627e3d4" />
 <img width="2388" height="1182" alt="Monte Carlo - VaR - CVaR" src="https://github.com/user-attachments/assets/1efdcda4-9fcf-43e9-a7ba-fa3f5c2c04b0" />
 
 
-<br>
+
 
 ## 🤝 Contributions & Feedback
 
