@@ -65,7 +65,7 @@ Loss distribution plots and extreme risk scenarios
 | Multi-strategy optimizer | ✅ Done |
 | Efficient Frontier | ✅ Done |
 | Monte Carlo VaR & CVaR | ✅ Done |
-| A Mission, a vision, a design | 🚧 In Progress |
+| A mission, a vision, a bew design | ✅ Done |
 | Fama-French model | 🚧 In Progress |
 | Codebase refactor into a modular engine | Planned |
 | Streamlit MVP (web app) | Planned |
