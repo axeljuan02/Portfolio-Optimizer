@@ -80,7 +80,6 @@ Loss distribution plots and extreme risk scenarios
 
 
 
-
 ## 🤝 Contributions & Feedback
 
 SORA is under active development.  
