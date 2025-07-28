@@ -1,47 +1,89 @@
-# Portfolio-Optimizer
+# SORA — The Smart Optimized Risk Allocator
 
-**Portfolio-Optimizer** is a personal project aligned with my finance ambitions, leveraging Harry Markowitz’s **Modern Portfolio Theory (MPT)** to optimize diversified investment portfolios, including cryptocurrencies, stocks, ETFs, and more.
+**SORA** is the fastest evolving project at the crossroads of **quantitative finance**, **programming**, and **investment education**.  
 
+It began as a deep dive into the **world of institutional investing**, a way to understand how real portfolios are built, how risk is managed, and how professional models work in practice.  
 
-## ✨ Features
+Its ambition quickly grew: to build a **professional-grade portfolio optimization engine** that is **powerful, transparent, and accessible**, turning the complex theories and tools of Wall Street into something **anyone** can learn from and use.  
 
-- 🎯 Multi-asset portfolio support with customizable tickers and allocations  
-- 📊 Historical market data via `yfinance` over user-defined timeframes  
-- 📈 Calculation of `log-returns`, `covariance matrix`, `portfolio volatility`, `expected returns`, `beta (vs. SPY)`, and `Sharpe ratio`  
-- ⚙️ Three optimization strategies with constraints:  
-  1. Maximize Sharpe Ratio  
-  2. Maximize Expected Return  
-  3. Minimize Volatility  
-- 🔒 Practical constraints (customizable) : weights sum to 1, no short selling, max 50% per asset  
+> *“Democratizing intelligent and professional investing for everyone, because no, investment isn't that easy.”*
 
+SORA isn’t just an optimizer. It’s a mission to **educate as much as it optimizes**, revealing the models used by institutions, breaking down the knowledge gap, and empowering individual investors to make **truly informed decisions**.
 
-## 🛠️ Tech Stack
+<br>
 
-`Python` | `pandas` | `numpy` | `scipy.optimize` | `yfinance` | `matplotlib`
+## 📌 A Mission
 
+When I began this project, my first goal was simple: to truly understand how **institutional and professional investing** works, the **real investment world** beyond what’s marketed to individuals.  
+
+I wanted to revisit and apply the **finance concepts I studied at ESSEC**, not just to test them, but to **professionalize my own investments**.  
+
+As I explored deeper, diving into the theories and models used by today’s financial giants, I saw the **massive knowledge gap** between institutions and everyday investors. It became clear how many modern investment platforms and “finance influencers” were selling the illusion of *simple, accessible investing for everyone*.  
+
+But the truth is: it’s not that simple.  
+
+This project was born from a belief that **everyone deserves access to elite knowledge and tools** — that the models once reserved for institutional desks could be **demystified and made usable**.  
+
+And that’s when SORA stopped being just a coding experiment, and started its transformation into a project with a mission:  
+➡️ **To close the gap. To democratize professional investing.**
+
+<br>
+
+## ✅ Current Features
+
+- **Multi-Strategy Optimizer**  
+3 core strategies: **Max Sharpe ratio**, **Max Expected Return**, **Min Volatility**  
+KPIs: Sharpe, Beta, Volatility, Expected Return  
+Portfolio constraints: no short-selling, capped allocation per asset  
+
+- **Harry Markowitz's Efficient Frontier Generator**  
+Simulation of thousands of portfolios   
+Visualization of the **risk/return trade-off**    
+Highlighting the optimal portfolio allocations vs the actual portfolio allocations
+
+- **Monte Carlo Risk Engine**  
+**VaR** (Value at Risk) and **CVaR** (Conditional VaR) computed through **Monte Carlo simulation**  
+Loss distribution plots and extreme risk scenarios  
+
+<br>
+
+## ⚙️ How It Works
+
+1️⃣ **User inputs**: portfolio tickers & allocations  
+2️⃣ **Market data** is fetched via Yahoo Finance  
+3️⃣ **Metrics calculated**: returns, volatility, Sharpe, Beta, etc.  
+4️⃣ **Optimization runs**: chosen strategy (Sharpe, min-vol, etc.)  
+5️⃣ **Risk engine**: Monte Carlo simulation runs → VaR & CVaR calculated  
+6️⃣ **Outputs delivered**: optimized weights, KPIs, efficient frontier & risk visualizations
+
+<br>
 
 ## 🛤️ Roadmap
 
-| Feature                         | Status        |
-| ------------------------------- | ------------- |
-| Multi-Strategy Portfolio Optimizer   | ✅ Done |
-| Efficient Frontier Chart        | ✅ Done |
-| VaR and CVaR (ES) calculus      | ✅ Done |
-| Repo's New Design               | 🚧 In Progress |
-| Fama French 5 factor model Integration | 🚧 In Progress |
-| Unification oin one supercode   | Planned     |
-| Streamlit integration           | Planned       |
-| Full website frontend (HTML/CSS/JS) | Planned  |
-| Further Opimization             | Planned       |
+| Module | Status |
+|--------|--------|
+| Multi-strategy optimizer | ✅ Done |
+| Efficient Frontier | ✅ Done |
+| Monte Carlo VaR & CVaR | ✅ Done |
+| A Mission, a vision, a design | 🚧 In Progress |
+| Fama-French model | 🚧 In Progress |
+| Codebase refactor into a modular engine | Planned |
+| Streamlit MVP (web app) | Planned |
+| SaaS frontend (HTML/CSS/JS) | Planned |
+| AI/NLP integration | Planned |
 
-## ⚙️ First Results
-<img width="2336" height="1122" alt="image" src="https://github.com/user-attachments/assets/e728f627-8bde-4398-bd73-4e5fc54d5d75" />
-<img width="2388" height="1182" alt="image" src="https://github.com/user-attachments/assets/53588612-3774-4adb-ab41-d51a2b440ca4" />
+<br>
+
+## 📸 First Results
+<img width="2336" height="1122" alt="efficient_frontier_results" src="https://github.com/user-attachments/assets/5b5b5cba-2734-4f16-b10f-bafc2627e3d4" />
+<img width="2388" height="1182" alt="Monte Carlo - VaR - CVaR" src="https://github.com/user-attachments/assets/1efdcda4-9fcf-43e9-a7ba-fa3f5c2c04b0" />
 
 
-## ⚙️ How it works
-<img width="650" height="300" alt="image" src="https://github.com/user-attachments/assets/2fabe7d0-308b-434d-bd9c-7b9a281d8f66" />
-<img width="650" height="300" alt="portfolio volatility formula (stdev)" src="https://github.com/user-attachments/assets/fe435449-3f8c-4041-bc4f-aa7b43f9afda" />
-<img width="650" height="300" alt="beta formula" src="https://github.com/user-attachments/assets/a30e0a88-aa2b-4909-b69e-dfd085a7a341" />
+<br>
 
+## 🤝 Contributions & Feedback
+
+SORA is under active development.  
+⭐ **Star** the repo if you find it useful.  
+💡 Open **issues** for suggestions or ideas.  
 
