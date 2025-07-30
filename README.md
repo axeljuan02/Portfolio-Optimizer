@@ -68,9 +68,11 @@ Loss distribution plots and extreme risk scenarios
 | A mission, a vision, a new design | ✅ Done |
 | Fama-French model | ✅ Done |
 | Codebase refactor into a modular engine | 🚧 In Progress |
+| AI/NLP integration | Planned |
 | Streamlit MVP (web app) | Planned |
 | SaaS frontend (HTML/CSS/JS) | Planned |
-| AI/NLP integration | Planned |
+| Further Optimization | Planned |
+| First release | Planned |
 
 
 
