@@ -45,7 +45,10 @@ Highlighting the optimal portfolio allocations vs the actual portfolio allocatio
 **VaR** (Value at Risk) and **CVaR** (Conditional VaR) computed through **Monte Carlo simulation**  
 Loss distribution plots and extreme risk scenarios  
 
-
+- **Fama-French 5 Factor Model Integration**  
+Regression of the portfolio’s **excess returns** on the five Fama-French factors  
+Extraction of **alpha** (manager skill) and **betas** (factor exposures)  
+Bar chart visualization of factor loadings with **R²** and **Adjusted R²** annotations  
 
 ## ⚙️ How It Works
 
