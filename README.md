@@ -70,8 +70,8 @@ Bar chart visualization of factor loadings with **R²** and **Adjusted R²** ann
 | Monte Carlo VaR & CVaR | ✅ Done |
 | A mission, a vision, a new design | ✅ Done |
 | Fama-French model | ✅ Done |
-| Codebase refactor into a modular engine | 🚧 In Progress |
-| AI/NLP integration | Planned |
+| Codebase refactor into a modular engine | ✅ Done |
+| AI/NLP integration | 🚧 In Progress |
 | Streamlit MVP (web app) | Planned |
 | SaaS frontend (HTML/CSS/JS) | Planned |
 | Further Optimization | Planned |
