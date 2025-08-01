@@ -72,8 +72,9 @@ Bar chart visualization of factor loadings with **R²** and **Adjusted R²** ann
 | Fama-French model | ✅ Done |
 | Codebase refactor into a modular engine | ✅ Done |
 | AI/NLP integration | 🚧 In Progress |
+| Macroeconomics Agregator Model | Planned |
 | Streamlit MVP (web app) | Planned |
-| SaaS frontend (HTML/CSS/JS) | Planned |
+| SaaS development (Django + Frontend) | Planned |
 | Further Optimization | Planned |
 | First release | Planned |
 
