@@ -84,6 +84,7 @@ Bar chart visualization of factor loadings with **R²** and **Adjusted R²** ann
 <img width="2336" height="1122" alt="efficient_frontier_results" src="https://github.com/user-attachments/assets/5b5b5cba-2734-4f16-b10f-bafc2627e3d4" />
 <img width="2388" height="1182" alt="Monte Carlo - VaR - CVaR" src="https://github.com/user-attachments/assets/1efdcda4-9fcf-43e9-a7ba-fa3f5c2c04b0" />
 <img width="2046" height="998" alt="Fama French 5" src="https://github.com/user-attachments/assets/7350a18f-4dfd-44ef-85ec-2692da288273" />
+<img width="2256" height="1510" alt="image" src="https://github.com/user-attachments/assets/1e97c83f-8b54-40eb-9e46-2e63f262ec85" />
 
 
 
