@@ -61,6 +61,22 @@ Bar chart visualization of factor loadings with **R²** and **Adjusted R²** ann
 
 
 
+## ❓ About This Repo
+
+This repo = **SORA Core Engine**   
+✅ Full **Python engine** (Markowitz, Monte Carlo, Fama-French)  
+✅ Matplotlib plots & AI in terminal  
+✅ Open-source **for educational & demonstrative purposes**  
+
+A separate **private repo (SORA WebApp Premium)** contains:  
+🔒 Django backend & SaaS infrastructure  
+🔒 Frontend (React)  
+🔒 Advanced AI/NLP logic  
+🔒 Macro-economic integration  
+🔒 Premium features for future commercialization
+
+
+
 ## 🛤️ Roadmap
 
 | Module | Status |
