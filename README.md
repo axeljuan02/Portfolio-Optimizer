@@ -25,7 +25,20 @@ But the truth is: it’s not that simple.
 This project was born from a belief that **everyone deserves access to elite knowledge and tools** — that the models once reserved for institutional desks could be **demystified and made usable**.  
 
 And that’s when SORA stopped being just a coding experiment, and started its transformation into a project with a mission:  
-➡️ **To close the gap. To democratize professional investing.**
+→ **To close the gap. To democratize professional investing.**
+
+
+
+## ⚠️ About This Repository
+
+This public repository **SORA Core Engine**, showcases the full **Python-based foundation** of the SORA project: a modular portfolio optimizer with quantitative models like **Markowitz**, **Monte Carlo simulation**, **Fama-French 5 factors**, and a first integration of **AI/NLP logic**.  
+It is made publicly available for **educational, technical, and demonstrative purposes**, particularly for academic admissions, recruiters, and fellow developers.
+
+In parallel, a **private repository** **SORA WebApp Premium** is under development. It includes all the elements necessary to turn this engine into a full SaaS product:  
+A production-ready **Django backend**, a **React frontend**, advanced **AI features**, and a **macroeconomic intelligence module**.
+
+While this public repo demonstrates the **core engine built from scratch**, not all features are showcased here, and thus by design. Some modules remain private to preserve both a **technical and strategic edge** as part of SORA’s SaaS development.  
+This repo is primarily meant to **showcase coding skills and quantitative expertise** for **academic admissions** and **professional opportunities**.  
 
 
 
@@ -48,7 +61,13 @@ Loss distribution plots and extreme risk scenarios
 - **Fama-French 5 Factor Model Integration**  
 Regression of the portfolio’s **excess returns** on the five Fama-French factors  
 Extraction of **alpha** (manager skill) and **betas** (factor exposures)  
-Bar chart visualization of factor loadings with **R²** and **Adjusted R²** annotations  
+Bar chart visualization of factor loadings with **R²** and **Adjusted R²** annotations
+
+- **AI/NLP Assistant Integration**  
+OpenAI-powered assistant connected to the full model output.  
+Generates context-aware summaries and answers in real-time, directly in the terminal.  
+Includes intelligent memory, full chart/data access, and **color-coded chat interface** for clarity.  
+
 
 ## ⚙️ How It Works
 
@@ -57,23 +76,9 @@ Bar chart visualization of factor loadings with **R²** and **Adjusted R²** ann
 3️⃣ **Metrics calculated**: returns, volatility, Sharpe, Beta, etc.  
 4️⃣ **Optimization runs**: chosen strategy (Sharpe, min-vol, etc.)  
 5️⃣ **Risk engine**: Monte Carlo simulation runs → VaR & CVaR calculated  
-6️⃣ **Outputs delivered**: optimized weights, KPIs, efficient frontier & risk visualizations
-
-
-
-## ❓ About This Repo
-
-This repo = **SORA Core Engine**   
-✅ Full **Python engine** (Markowitz, Monte Carlo, Fama-French)  
-✅ Matplotlib plots & AI in terminal  
-✅ Open-source **for educational & demonstrative purposes**  
-
-A separate **private repo (SORA WebApp Premium)** contains:  
-🔒 Django backend & SaaS infrastructure  
-🔒 Frontend (React)  
-🔒 Advanced AI/NLP logic  
-🔒 Macro-economic integration  
-🔒 Premium features for future commercialization
+6️⃣ **Factor model**: Fama-French 5 regression → alpha & beta extraction  
+7️⃣ **AI assistant activated**: parses all results (charts, KPIs, regressions) and answers user queries via intelligent memory  
+8️⃣ **Outputs delivered**: optimized weights, full analytics, risk plots, and interactive AI reports in terminal  
 
 
 
@@ -89,8 +94,7 @@ A separate **private repo (SORA WebApp Premium)** contains:
 | Codebase refactor into a modular engine | ✅ Done |
 | AI/NLP integration | ✅ Done |
 | Macroeconomics Agregator Model | 🚧 In Progress |
-| Streamlit MVP (web app) | 🚧 In Progress |
-| SaaS development (Django + Frontend) | Planned |
+| SaaS development (Django webApp + Frontend) | Planned |
 | Further Optimization | Planned |
 | First release | Planned |
 
