@@ -93,10 +93,10 @@ Includes intelligent memory, full chart/data access, and **color-coded chat inte
 | Fama-French model | ✅ Done |
 | Codebase refactor into a modular engine | ✅ Done |
 | AI/NLP integration | ✅ Done |
-| Macroeconomics Agregator Model | 🚧 In Progress |
-| SaaS development (Django webApp + Frontend) | Planned |
-| Further Optimization | Planned |
-| First release | Planned |
+| MVP Website development (Streamlit + SupaBase) | 🚧 In Progress |
+| MVP Release & Beta testing | Planned |
+| Macroeconomics Agregator Model | Planned |
+| Expansion (FastAPI, React, webdev...) | Planned |
 
 
 
