@@ -22,7 +22,7 @@ As I explored deeper, diving into the theories and models used by today’s fina
 
 But the truth is: it’s not that simple.  
 
-This project was born from a belief that **everyone deserves access to elite knowledge and tools** — that the models once reserved for institutional desks could be **demystified and made usable**.  
+This project was born from a belief that **everyone deserves access to elite knowledge and tools**, that the models once reserved for institutional desks could be **demystified and made usable**.  
 
 And that’s when SORA stopped being just a coding experiment, and started its transformation into a project with a mission:  
 → **To close the gap. To democratize professional investing.**
