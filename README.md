@@ -30,15 +30,20 @@ And that’s when SORA stopped being just a coding experiment, and started its t
 
 
 ## ⚠️ About This Repository
+This public repository **SORA Core Engine** showcases the full Python-based foundation of the SORA project:  
+a modular portfolio optimizer with quantitative models like **Markowitz**, **Monte Carlo simulation**, **Fama-French 5 factors**, and a first integration of **AI/NLP** logic.
+It is made publicly available for educational, technical, and demonstrative purposes, particularly for academic admissions, recruiters, and fellow developers.
 
-This public repository **SORA Core Engine**, showcases the full **Python-based foundation** of the SORA project: a modular portfolio optimizer with quantitative models like **Markowitz**, **Monte Carlo simulation**, **Fama-French 5 factors**, and a first integration of **AI/NLP logic**.  
-It is made publicly available for **educational, technical, and demonstrative purposes**, particularly for academic admissions, recruiters, and fellow developers.
+In parallel, a private repository **SORA WebApp** is under development.  
+It includes all the elements necessary to turn this engine into a full SaaS product: a Streamlit + Supabase DB MVP, advanced AI features, and a macroeconomic intelligence module.
 
-In parallel, a **private repository** **SORA WebApp Premium** is under development. It includes all the elements necessary to turn this engine into a full SaaS product:  
-A production-ready **Django backend**, a **React frontend**, advanced **AI features**, and a **macroeconomic intelligence module**.
+While this public repo demonstrates the core engine built from scratch, not all features are showcased here, and thus by design.  
+Some modules remain private to preserve both a technical and strategic edge as part of SORA’s SaaS development.
+This repo is primarily meant to showcase coding skills and quantitative expertise for academic admissions and professional opportunities.
 
-While this public repo demonstrates the **core engine built from scratch**, not all features are showcased here, and thus by design. Some modules remain private to preserve both a **technical and strategic edge** as part of SORA’s SaaS development.  
-This repo is primarily meant to **showcase coding skills and quantitative expertise** for **academic admissions** and **professional opportunities**.  
+Documentation :
+- [Core Engine README](Core_Engine.md) — Detailed explanation of the Python engine, quantitative models, and algorithms.
+- [SaaS Web App README](WebbApp.md) — Overview of the planned SaaS application, backend/frontend stack, and premium features roadmap.
 
 
 
