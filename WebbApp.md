@@ -38,13 +38,10 @@ This private repository reflects thus a dual-track strategy:
 
 
 ## 📸 First SaaS MVP Results
+
+https://github.com/user-attachments/assets/1b7b6dcf-ca6d-429b-aca9-1c8b3f82cdc5
+
 <img width="2880" height="1600" alt="SORA AI BETA 1" src="https://github.com/user-attachments/assets/bd05e05f-4722-4734-9fa0-314fa1a064b2" />
-<img width="2880" height="1620" alt="SORA AI BETA 2" src="https://github.com/user-attachments/assets/20318a58-c14f-4208-92d3-d5b7312e86b6" />
-<img width="2878" height="1622" alt="SORA AI BETA 3" src="https://github.com/user-attachments/assets/b7689344-ebe4-4faf-93b0-60156fe40ad2" />
-<img width="2880" height="1608" alt="SORA AI BETA 3 bis" src="https://github.com/user-attachments/assets/9c77b265-268a-4ae0-a4ee-909355644df4" />
-<img width="2880" height="1622" alt="SORA AI BETA 3 bis bis" src="https://github.com/user-attachments/assets/072009ff-adf9-4e5c-bf1b-cf37d02410ea" />
-<img width="2880" height="1618" alt="SORA AI BETA 3 bis bis bis" src="https://github.com/user-attachments/assets/c133c2cd-5b6c-4792-ad73-31fb31228e97" />
-<img width="2880" height="1616" alt="SORA AI BETA 3 bis bis bis bis" src="https://github.com/user-attachments/assets/d83003de-0648-4f86-beae-05fcf1f49c7f" />
 <img width="2880" height="1614" alt="SORA AI BETA 4" src="https://github.com/user-attachments/assets/867b6563-2a73-430f-a217-7fbc3b2ffcc2" />
 
 
