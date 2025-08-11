@@ -106,12 +106,7 @@ Includes intelligent memory, full chart/data access, and **color-coded chat inte
 
 
 ## 📸 First Results
-<img width="2336" height="1122" alt="efficient_frontier_results" src="https://github.com/user-attachments/assets/5b5b5cba-2734-4f16-b10f-bafc2627e3d4" />
-<img width="2388" height="1182" alt="Monte Carlo - VaR - CVaR" src="https://github.com/user-attachments/assets/1efdcda4-9fcf-43e9-a7ba-fa3f5c2c04b0" />
-<img width="2046" height="998" alt="Fama French 5" src="https://github.com/user-attachments/assets/7350a18f-4dfd-44ef-85ec-2692da288273" />
-<img width="2256" height="1264" alt="sora_ai1" src="https://github.com/user-attachments/assets/4c0ad102-9b6c-4a16-918c-82d40e328cc8" />
-<img width="2232" height="1304" alt="sora_ai2" src="https://github.com/user-attachments/assets/28f47a62-0985-4a44-9c55-51c00b3e77ee" />
-<img width="2240" height="1522" alt="sora_ai3" src="https://github.com/user-attachments/assets/a66673a5-1752-4599-851d-b3451d6c50ad" />
+https://github.com/user-attachments/assets/36d53164-234e-40f6-9592-dbeb52e12531
 
 
 
