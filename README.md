@@ -77,8 +77,8 @@ Initially, it was built simply to code financial models in Python and demonstrat
 It is now part of a broader project that includes a multi-page Streamlit MVP, with a SaaS-oriented WebApp in private development.
 
 Detailed explanations of each component are provided in their dedicated documentation:
-- [Core Engine README](Core_Engine.md) — Educational focus, models, and algorithms for Admissions Committees.  
-- [SaaS WebApp README](WebApp.md) — MVP architecture, features, and product roadmap for fellow Finance students and developpers.
+- [Educational_Showcase README](Educational_Showcase.md) — Educational focus, models, and algorithms for Admissions Committees.  
+- [SORA_WebApp README](SORA_WebApp.md) — MVP architecture, features, and product roadmap for fellow Finance students and developpers.
 
 
 
