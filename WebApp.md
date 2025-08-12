@@ -1,6 +1,6 @@
 # SORA WebApp for SaaS Development
 
-**SORA WebApp Premium** is the private SaaS extension of the SORA Core Engine: a full-stack investment intelligence platform that brings institutional-grade analytics, macroeconomic insight, and AI-powered decision support to individual investors.
+**SORA WebApp** is the private SaaS extension of the SORA Core Engine: a full-stack investment intelligence platform that brings institutional-grade analytics, macroeconomic insight, and AI-powered decision support to individual investors.
 
 This repository represents the productization phase of SORA: transitioning from a technical prototype to a production-ready, scalable platform, while staying true to its mission of financial knowledge democratization.
 
