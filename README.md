@@ -1,90 +1,50 @@
 # SORA — The Smart Optimized Risk Allocator
 
 **SORA** is the fastest evolving project at the crossroads of **quantitative finance**, **programming**, and **investment education**.  
+It began as a deep dive into the **institutional investment world** to understand how real portfolios are built, how risk is managed, and how professional models work in practice.  
 
-It began as a deep dive into the **world of institutional investing**, a way to understand how real portfolios are built, how risk is managed, and how professional models work in practice.  
+As I sought to **relearn, better understand, and go beyond** the finance concepts studied at ESSEC to apply them to my own portfolio, I saw the **knowledge gap** separating institutions from everyday investors. 
+> Many modern platforms and “finance influencers” promote an illusion of *easy, accessible investing*, while the reality is far more complex.  
 
-Its ambition quickly grew: to build a **professional-grade portfolio optimization engine** that is **powerful, transparent, and accessible**, turning the complex theories and tools of Wall Street into something **anyone** can learn from and use.  
+This project was born from the belief that **everyone should have access to the same elite models and tools once reserved for institutional desks**. The ambition quickly grew: to build a **professional-grade portfolio optimization engine** that is **powerful, transparent, and accessible**, turning the complex theories and tools of Wall Street into something **anyone can learn from and use**.  
 
-> *“Democratizing intelligent and professional investing for everyone, because no, investment isn't that easy.”*
-
-SORA isn’t just an optimizer. It’s a mission to **educate as much as it optimizes**, revealing the models used by institutions, breaking down the knowledge gap, and empowering individual investors to make **truly informed decisions**.
-
-
-
-## 📌 A Mission
-
-When I began this project, my first goal was simple: to truly understand how **institutional and professional investing** works, the **real investment world** beyond what’s marketed to individuals.  
-
-I wanted to revisit and apply the **finance concepts I studied at ESSEC**, not just to test them, but to **professionalize my own investments**.  
-
-As I explored deeper, diving into the theories and models used by today’s financial giants, I saw the **massive knowledge gap** between institutions and everyday investors. It became clear how many modern investment platforms and “finance influencers” were selling the illusion of *simple, accessible investing for everyone*.  
-
-But the truth is: it’s not that simple.  
-
-This project was born from a belief that **everyone deserves access to elite knowledge and tools**, that the models once reserved for institutional desks could be **demystified and made usable**.  
-
-And that’s when SORA stopped being just a coding experiment, and started its transformation into a project with a mission:  
-→ **To close the gap. To democratize professional investing.**
+SORA is no longer just an optimizer, it’s a mission to **educate as much as it optimizes**, demystifying institutional models, breaking down the gap, and empowering individuals to make **truly informed investment decisions**.  
 
 
 
-## ⚠️ About This Repository
-This public repository **SORA Core Engine** showcases the full Python-based foundation of the SORA project:  
-a modular portfolio optimizer with quantitative models like **Markowitz**, **Monte Carlo simulation**, **Fama-French 5 factors**, and a first integration of **AI/NLP** logic.
-It is made publicly available for educational, technical, and demonstrative purposes, particularly for academic admissions, recruiters, and fellow developers.
+https://github.com/user-attachments/assets/36d53164-234e-40f6-9592-dbeb52e12531
 
-In parallel, a private repository **SORA WebApp** is under development.  
-It includes all the elements necessary to turn this engine into a full SaaS product: a Streamlit + Supabase DB MVP, advanced AI features, and a macroeconomic intelligence module.
 
-While this public repo demonstrates the core engine built from scratch, not all features are showcased here, and thus by design.  
-Some modules remain private to preserve both a technical and strategic edge as part of SORA’s SaaS development.
-This repo is primarily meant to showcase coding skills and quantitative expertise for academic admissions and professional opportunities.
-
-Documentation :
-- [Core Engine README](Core_Engine.md) — Detailed explanation of the Python engine, quantitative models, and algorithms.
-- [SaaS Web App README](WebbApp.md) — Overview of the planned SaaS application, backend/frontend stack, and premium features roadmap.
-
+<br>
 
 
 ## ✅ Current Features
 
-- **Multi-Strategy Optimizer**  
-3 core strategies: **Max Sharpe ratio**, **Max Expected Return**, **Min Volatility**  
-KPIs: Sharpe, Beta, Volatility, Expected Return  
-Portfolio constraints: no short-selling, capped allocation per asset  
+SORA is a multi-page Streamlit MVP that operationalizes a Python quantitative engine for portfolio construction and risk analysis. It is designed as an auditable, reproducible demonstrator suitable for academic review and as a foundation for a future SaaS.
 
-- **Harry Markowitz's Efficient Frontier Generator**  
-Simulation of thousands of portfolios   
-Visualization of the **risk/return trade-off**    
-Highlighting the optimal portfolio allocations vs the actual portfolio allocations
+| Page | Purpose | Key outputs |
+|---|---|---|
+| Portfolio Setup | Define tickers, dates, and weights; validate inputs and constraints | Cleaned universe, normalized weights, session state |
+| Efficient Frontier | Compute constrained mean–variance frontier and optimal points | Frontier curve, max-Sharpe and min-volatility portfolios, allocation tables |
+| Monte Carlo Risk | Simulate paths from estimated moments and correlations | VaR and CVaR from simulated P&L, loss distributions, stress scenarios |
+| Factor Attribution (FF5) | Regress excess returns on Mkt–RF, SMB, HML, RMW, CMA | Alpha, betas, t-statistics, R² and adjusted R², factor loading charts |
+| Explanations | Translate results into plain-English narratives | Contextual summaries, decision notes, caveats |
+| Export | Persist selected figures and tables | PNG charts, CSV summaries, reproducibility notes |
 
-- **Monte Carlo Risk Engine**  
-**VaR** (Value at Risk) and **CVaR** (Conditional VaR) computed through **Monte Carlo simulation**  
-Loss distribution plots and extreme risk scenarios  
-
-- **Fama-French 5 Factor Model Integration**  
-Regression of the portfolio’s **excess returns** on the five Fama-French factors  
-Extraction of **alpha** (manager skill) and **betas** (factor exposures)  
-Bar chart visualization of factor loadings with **R²** and **Adjusted R²** annotations
-
-- **AI/NLP Assistant Integration**  
-OpenAI-powered assistant connected to the full model output.  
-Generates context-aware summaries and answers in real-time, directly in the terminal.  
-Includes intelligent memory, full chart/data access, and **color-coded chat interface** for clarity.  
+**Methods and metrics :** Efficient Frontier (Markowitz), Monte Carlo simulation, and Fama–French 5 attribution with KPIs including CAGR, annualized volatility, Sharpe, Sortino, and Max Drawdown. Long-only constraints with per-asset caps, frequency-consistent risk-free handling, documented annualization, and reproducible seeds. Live data via Yahoo Finance and Fama–French, with the option to run on bundled sample datasets.
 
 
-## ⚙️ How It Works
+<br>
 
-1️⃣ **User inputs**: portfolio tickers & allocations  
-2️⃣ **Market data** is fetched via Yahoo Finance  
-3️⃣ **Metrics calculated**: returns, volatility, Sharpe, Beta, etc.  
-4️⃣ **Optimization runs**: chosen strategy (Sharpe, min-vol, etc.)  
-5️⃣ **Risk engine**: Monte Carlo simulation runs → VaR & CVaR calculated  
-6️⃣ **Factor model**: Fama-French 5 regression → alpha & beta extraction  
-7️⃣ **AI assistant activated**: parses all results (charts, KPIs, regressions) and answers user queries via intelligent memory  
-8️⃣ **Outputs delivered**: optimized weights, full analytics, risk plots, and interactive AI reports in terminal  
 
+## ⚙️ Computation Pipeline
+
+<img width="1684" height="470" alt="sora pipeline" src="https://github.com/user-attachments/assets/2f806eb6-5efd-4df5-9a5a-3f60cc32cfb8" />
+
+
+
+<br>
+<br>
 
 
 ## 🛤️ Roadmap
@@ -105,15 +65,39 @@ Includes intelligent memory, full chart/data access, and **color-coded chat inte
 
 
 
-## 📸 First Results
-https://github.com/user-attachments/assets/36d53164-234e-40f6-9592-dbeb52e12531
+<br>
 
 
 
+## 📁 About This Repository
 
-## 🤝 Contributions & Feedback
+This repository contains the **SORA Core Engine**, the quantitative foundation powering the SORA platform.  
 
-SORA is under active development.  
-⭐ **Star** the repo if you find it useful.  
-💡 Open **issues** for suggestions or ideas.  
+Initially, it was built simply to code financial models in Python and demonstrate to universities and professionals both my understanding of financial principles and my ability to implement them programmatically.  
+It is now part of a broader project that includes a multi-page Streamlit MVP, with a SaaS-oriented WebApp in private development.
+
+Detailed explanations of each component are provided in their dedicated documentation:
+- [Core Engine README](Core_Engine.md) — Educational focus, models, and algorithms.  
+- [SaaS WebApp README](WebApp.md) — MVP architecture, features, and product roadmap.
+
+
+
+<br>
+
+
+
+## 👤 Founder & Vision
+
+**Axel JUAN**  
+BBA Third-Year Student @ ESSEC Business School  
+CFA Level 1 Candidate  
+Personal portfolio manager since age 15  
+Passionate about the intersection of quantitative finance, artificial intelligence, and product development.
+
+SORA is part of a broader academic and entrepreneurial journey, combining technical rigor with a long-term vision: to give investors the knowledge and tools once reserved for professionals.  
+
+It is under active development and is designed to showcase the engine’s capabilities, coding standards, and quantitative rigor for academic admissions and professional evaluation.  
+
+
+For demo access, collaboration inquiries, or strategic discussions: [juan.axel@protonmail.com]  
 
