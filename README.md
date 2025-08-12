@@ -3,7 +3,7 @@
 **SORA** is the fastest evolving project at the crossroads of **quantitative finance**, **programming**, and **investment education**.  
 It began as a deep dive into the **institutional investment world** to understand how real portfolios are built, how risk is managed, and how professional models work in practice.  
 
-As I sought to **relearn, better understand, and go beyond** the finance concepts studied at ESSEC to apply them to my own portfolio, I saw the **knowledge gap** separating institutions from everyday investors. 
+As I sought to **relearn, better understand, and go beyond** the finance concepts studied at ESSEC to apply them to my own portfolio, I faced a **massive gap** separating institutions from everyday investors. 
 > Many modern platforms and “finance influencers” promote an illusion of *easy, accessible investing*, while the reality is far more complex.  
 
 This project was born from the belief that **everyone should have access to the same elite models and tools once reserved for institutional desks**. The ambition quickly grew: to build a **professional-grade portfolio optimization engine** that is **powerful, transparent, and accessible**, turning the complex theories and tools of Wall Street into something **anyone can learn from and use**.  
@@ -18,7 +18,7 @@ https://github.com/user-attachments/assets/36d53164-234e-40f6-9592-dbeb52e12531
 <br>
 
 
-## ✅ Current Features
+## ✅ Key Features
 
 SORA is a multi-page Streamlit MVP that operationalizes a Python quantitative engine for portfolio construction and risk analysis. It is designed as an auditable, reproducible demonstrator suitable for academic review and as a foundation for a future SaaS.
 
@@ -37,7 +37,7 @@ SORA is a multi-page Streamlit MVP that operationalizes a Python quantitative en
 <br>
 
 
-## ⚙️ Computation Pipeline
+## ⚙️ Processing Pipeline
 
 <img width="1684" height="470" alt="sora pipeline" src="https://github.com/user-attachments/assets/2f806eb6-5efd-4df5-9a5a-3f60cc32cfb8" />
 
@@ -77,8 +77,8 @@ Initially, it was built simply to code financial models in Python and demonstrat
 It is now part of a broader project that includes a multi-page Streamlit MVP, with a SaaS-oriented WebApp in private development.
 
 Detailed explanations of each component are provided in their dedicated documentation:
-- [Core Engine README](Core_Engine.md) — Educational focus, models, and algorithms.  
-- [SaaS WebApp README](WebApp.md) — MVP architecture, features, and product roadmap.
+- [Core Engine README](Core_Engine.md) — Educational focus, models, and algorithms for Admissions Committees.  
+- [SaaS WebApp README](WebApp.md) — MVP architecture, features, and product roadmap for fellow Finance students and developpers.
 
 
 
