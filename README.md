@@ -92,7 +92,6 @@ Detailed explanations of each component are provided in their dedicated document
 BBA Third-Year Student @ ESSEC Business School  
 CFA Level 1 Candidate  
 Personal portfolio manager since age 15  
-Passionate about the intersection of quantitative finance, artificial intelligence, and product development.
 
 SORA is part of a broader academic and entrepreneurial journey, combining technical rigor with a long-term vision: to give investors the knowledge and tools once reserved for professionals.  
 
