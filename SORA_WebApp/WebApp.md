@@ -39,4 +39,4 @@ This semi-private directory reflects thus that dual-track strategy.
 https://github.com/user-attachments/assets/1b7b6dcf-ca6d-429b-aca9-1c8b3f82cdc5
 
 <img width="2880" height="1600" alt="SORA AI BETA 1" src="https://github.com/user-attachments/assets/bd05e05f-4722-4734-9fa0-314fa1a064b2" />
-<img width="2880" height="1614" alt="SORA AI BETA 4" src="https://github.com/user-attachments/assets/867b6563-2a73-430f-a217-7fbc3b2ffcc2" />
+<img width="2880" height="1540" alt="SORA AI BETA 4" src="https://github.com/user-attachments/assets/583bedbf-2046-4cb3-9be7-9ebacc6b092e" />
