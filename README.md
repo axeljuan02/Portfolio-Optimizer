@@ -58,7 +58,8 @@ SORA is a multi-page Streamlit MVP that operationalizes a Python quantitative en
 | Fama-French model | ✅ Done |
 | Codebase refactor into a modular engine | ✅ Done |
 | AI/NLP integration | ✅ Done |
-| MVP Website development (Streamlit + SupaBase) | 🚧 In Progress |
+| MVP WebApp development (Streamlit + SupaBase) | 🚧 In Progress |
+| First Website development (Showcase + Link WebApp) | 🚧 In Progress |
 | MVP Release & Beta testing | Planned |
 | Macroeconomics Agregator Model | Planned |
 | Expansion (FastAPI, React, webdev...) | Planned |
