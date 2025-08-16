@@ -61,6 +61,7 @@ Helios is a multi-page Streamlit MVP that operationalizes a Python quantitative 
 | MVP WebApp development (Streamlit + SupaBase) | 🚧 In Progress |
 | First Website development (Showcase + Link WebApp) | 🚧 In Progress |
 | MVP Release & Beta testing | Planned |
+| GARCH Model & MC Upgrade | Planned |
 | Macroeconomics Agregator Model | Planned |
 | Expansion (FastAPI, React, webdev...) | Planned |
 
@@ -72,14 +73,14 @@ Helios is a multi-page Streamlit MVP that operationalizes a Python quantitative 
 
 ## 📁 About This Repository
 
-This repository contains the **Helios Core Engine**, the quantitative foundation powering the SORA platform.  
+This repository contains the **Helios Core Engine**, the quantitative foundation powering the Helios platform.  
 
 Initially, it was built simply to code financial models in Python and demonstrate to universities and professionals both my understanding of financial principles and my ability to implement them programmatically.  
 It is now part of a broader project that includes a multi-page Streamlit MVP, with a SaaS-oriented WebApp in private development.
 
 Detailed explanations of each component are provided in their dedicated documentation:
 - [Educational_Showcase README](Educational_Showcase/EducationalShowcase.md) — Educational focus, models, and algorithms for Admissions Committees.  
-- [SORA_WebApp README](SORA_WebApp/WebApp.md) — MVP architecture, features, and product roadmap for fellow Finance students and developpers.
+- [Helios_WebApp README](SORA_WebApp/WebApp.md) — MVP architecture, features, and product roadmap for fellow Finance students and developpers.
 
 
 
@@ -94,7 +95,7 @@ BBA Third-Year Student @ ESSEC Business School
 CFA Level 1 Candidate  
 Personal portfolio manager since age 15  
 
-SORA is part of a broader academic and entrepreneurial journey, combining technical rigor with a long-term vision: to give investors the knowledge and tools once reserved for professionals.  
+Helios is part of a broader academic and entrepreneurial journey, combining technical rigor with a long-term vision: to give investors the knowledge and tools once reserved for professionals.  
 
 It is under active development and is designed to showcase the engine’s capabilities, coding standards, and quantitative rigor for academic admissions and professional evaluation.  
 
