@@ -58,9 +58,10 @@ Helios is a multi-page Streamlit MVP that operationalizes a Python quantitative 
 | Fama-French model | ✅ Done |
 | Codebase refactor into a modular engine | ✅ Done |
 | AI/NLP integration | ✅ Done |
-| MVP WebApp development (Streamlit + SupaBase) | 🚧 In Progress |
+| MVP WebApp development (Streamlit + SupaBase) | ✅ Done |
+| MVP Release & Beta testing | ✅ Done |
 | First Website development (Showcase + Link WebApp) | 🚧 In Progress |
-| MVP Release & Beta testing | Planned |
+| WebApp Upgrade (Supabase for DB + Auth) | Planned |
 | GARCH Model & MC Upgrade | Planned |
 | Macroeconomics Agregator Model | Planned |
 | Expansion (FastAPI, React, webdev...) | Planned |
