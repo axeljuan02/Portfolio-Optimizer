@@ -1,6 +1,6 @@
-# Helios — Democratizing professional investing.
+# HELIOS — Democratizing professional investing.
 
-**Helios** is the fastest evolving project at the crossroads of **quantitative finance**, **programming**, and **investment education**.  
+**HELIOS** is the fastest evolving project at the crossroads of **quantitative finance**, **programming**, and **investment education**.  
 It began as a deep dive into the **institutional investment world** to understand how real portfolios are built, how risk is managed, and how professional models work in practice.  
 
 As I sought to **relearn, better understand, and go beyond** the finance concepts studied at ESSEC to apply them to my own portfolio, I faced a **massive gap** separating institutions from everyday investors. 
@@ -58,7 +58,7 @@ Helios is a multi-page Streamlit MVP that operationalizes a Python quantitative 
 | Fama-French model | ✅ Done |
 | Codebase refactor into a modular engine | ✅ Done |
 | AI/NLP integration | ✅ Done |
-| MVP WebApp development (Streamlit + SupaBase) | ✅ Done |
+| MVP WebApp development (Streamlit) | ✅ Done |
 | MVP Release & Beta testing | ✅ Done |
 | First Website development (Showcase + Link WebApp) | 🚧 In Progress |
 | WebApp Upgrade (Supabase for DB + Auth) | Planned |
